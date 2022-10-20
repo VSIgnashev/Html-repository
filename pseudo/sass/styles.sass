@@ -1,0 +1,33 @@
+*
+    font-family: roboto
+
+button
+    width: 250px
+    height: 50px
+    background: #ffe66b
+    border: none
+    cursor: pointer
+    transition: 0.5s all
+    outline: none
+    &:hover
+        background-color: pink
+        color: #fff 
+    &:active
+        background-color: blue
+    &:focus
+        background-color: grey
+
+
+.circle
+    width: 50px
+    height: 50px
+    background-color: green
+    border-radius: 100%
+    margin-top: 10px
+    &:nth-child(2n)
+        background-color: black
+    &:before
+      content: '1'
+      display: block
+      height: 2px
+      background-color: black  
