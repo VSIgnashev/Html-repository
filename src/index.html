@@ -5,42 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./scss/styles.scss">
 </head>
 <body>
     <header>
-        <div class="header_wrapper">
-            <div class="header_wrapper_logo">
-                <img src="./icons/Logo.svg" alt="Logo">
-            </div>
-            <div class="header_wrapper_nav">
-                <nav>
-                    <ul class="header_wrapper_nav_list">
-                        <li class="header_wrapper_nav_list_li">
-                            <a href="#" class="header_wrapper_nav_list_li">Why Alivio</a></li>
-                        <li class="header_wrapper_nav_list_li">
-                            <a href="#" class="header_wrapper_nav_list_li">Solutions</a></li>
-                        <li class="header_wrapper_nav_list_li">
-                            <a href="#" class="header_wrapper_nav_list_li">Community</a></li>
-                        <li class="header_wrapper_nav_list_li">
-                            <a href="#" class="header_wrapper_nav_list_li">Pricing</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="header_wrapper_buttons">
-                <a class="header_wrapper_buttons_sign_in">Sign in</a>
-                <button class="header_wrapper_buttons_header_button">Start trial</button>
-            </div>
+        <div class="content-wrapper header-wrapper">
+            <img class="header-wrapper__logo" src="./icons/Logo.svg" alt="inscription 'Alivio'">
+            <nav class="header-wrapper__navigation navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item">Why Alivio</li>
+                    <li class="navigation__item">Solution</li>
+                    <li class="navigation__item">Community</li>
+                    <li class="navigation__item">Pricing</li>
+                </ul>
+
+            </nav>
         </div>
     </header>
 
-
-        
-    <section class="Be_aware_section">
-        <h1>Be aware,<br> Manage well.</h1>
-        <p class="Be_aware_section_p">Everyone experiences stress in different ways.<br>
-        Let Alivio guide you, in a personalized journal<br> experience, to overcome your stress.</p>
-        <button class="Be_aware_section_button">Find Your Way</button>
-    </section>
 </body>
 </html>
