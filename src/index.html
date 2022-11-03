@@ -8,20 +8,36 @@
     <link rel="stylesheet" href="./scss/styles.scss">
 </head>
 <body>
-    <header>
-        <div class="content-wrapper header-wrapper">
-            <img class="header-wrapper__logo" src="./icons/Logo.svg" alt="inscription 'Alivio'">
-            <nav class="header-wrapper__navigation navigation">
-                <ul class="navigation__list">
-                    <li class="navigation__item">Why Alivio</li>
-                    <li class="navigation__item">Solution</li>
-                    <li class="navigation__item">Community</li>
-                    <li class="navigation__item">Pricing</li>
-                </ul>
-
-            </nav>
+    <header class="header">
+        <div class="content-wrapper">
+            <div class="header-block">
+                <img src="./icons/Logo.svg" alt="Inscription 'Alivio'" class="header-block__logo">
+                <nav class="header-block__navigation navigation-block">
+                    <ul class="navigation-block__list">
+                        <li><a href="" class="navigation-block__item">Why Alivio</a></li>
+                        <li><a href="" class="navigation-block__item">Solutions</a></li>
+                        <li><a href="" class="navigation-block__item">Community</a></li>
+                        <li><a href="" class="navigation-block__item">Pricing</a></li>
+                    </ul>
+                </nav>
+                <div class="header-block__buttons header-buttons-block">
+                    <button class="header-buttons-block__sign-in sign-in-button">Sign in</button>
+                    <button class="header-buttons-block__Star   t-Trial start-trial-button">Start Trial</button>
+                </div> 
+            </div>
         </div>
     </header>
-
+    <div class="divider">
+    </div>    
+    <section class="be-aware">
+        <div class="content-wrapper">
+            <h1 class="be-aware__title">Be aware,<br> Manage well.</h1>
+            <p class="be-aware__text">Everyone experiences stress in different ways.<br>
+                Let Alivio guide you, in a personalized journal<br> experience, to overcome your stress.</p>
+            <button class="be-aware__button start-trial-button start-trial-size-be-aware">Find Your Way</button>
+        </div>
+    </section>
+        
+    
 </body>
 </html>

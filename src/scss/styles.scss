@@ -1,16 +1,22 @@
-@import url(./utility/variables.scss);
-@import url(./utility/fonts.scss);
-@import url(./utility/content-wrapper.scss);
-
-@import url(./header-wrapper.scss);
-@import url(./navigation.scss);
-
+@import "utility/variables.scss";
+@import "utility/fonts.scss";
+@import "header.scss";
+@import "utility/content-wrapper.scss";
+@import "header-block.scss";
+@import "navigation-block.scss";
+@import "header-buttons-block.scss";
+@import "sign-in-button.scss";
+@import "start-trial-button.scss";
+@import "divider.scss";
+@import "be-aware.scss";
 
 *{
     font-family: "Lato";
+    font-weight: 500;
+    font-size: $font-size-main;
+    color: $color-green;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 
