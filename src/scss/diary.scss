@@ -1,0 +1,25 @@
+.diary{
+    padding-top: 120px;
+    min-height: 936px;
+}
+
+.diary__wrapper{
+    max-width: 1400px;
+    display: flex;
+}
+
+.diary__customize-wrapper{
+    position: relative;
+}
+
+.diary__image{
+    margin-left: 63px;
+    border-radius: 4px;
+}
+
+.diary__customize-card{
+    position: absolute;
+    display: flex;
+    top: 354px;
+  
+}
