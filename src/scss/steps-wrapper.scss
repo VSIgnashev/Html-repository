@@ -1,0 +1,113 @@
+.steps-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.step-wrapper__header1{
+    position:relative;
+    margin-top: 44px;
+    margin-left: 90px;
+
+    font-family: Georgia;
+    font-size: 30px;
+    line-height: 45px;
+    color:$color-black;
+    text-align: left;
+}
+
+
+.step-wrapper__header1::before{
+    position: absolute;
+    left: -81px;
+    top: -50px;
+
+    content:url(../img/numberOne.png);    
+}
+
+.step-wrapper__p1{
+    display: block;
+    margin-top: 55px;
+    max-width: 382px;
+
+    line-height: 30px;
+    color:$color-dark-green;
+
+}
+
+.step-wrapper__img1{
+    margin-top: 60px;
+    border-radius: 12px;
+}
+
+.step-wrapper__header2{
+    position:relative;
+    margin-top: 331px;
+    margin-left: 82px;
+
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    color:$color-black;
+    margin-left: 79px;
+}
+
+
+.step-wrapper__header2::before{
+    position: absolute;
+    top: -51px;
+    left: -72px;
+
+    content:url(../img/NumberTwo.png);
+}
+
+.step-wrapper__p2{
+    display: block;
+    margin-top: 55px;
+    width: 392px;
+
+    line-height: 30px;
+    color:$color-dark-green;
+
+}
+
+.step-wrapper__img2{
+    margin-top: 60px;
+    border-radius: 12px;
+}
+
+
+.step-wrapper__header3{
+    position:relative;
+    margin-top: 98px;
+    margin-left: 132px;
+
+    font-family: Georgia;
+    font-size: 30px;
+    line-height: 45px;
+    color:$color-black;
+}
+
+.step-wrapper__header3::before{
+    position:absolute;
+    top: -52px;
+    left: -118px;
+
+    content:url(../img/NumberThree.png);
+}
+
+.step-wrapper__p3{
+    display: block;
+    margin-top: 55px;
+    width: 441px;
+
+    line-height: 30px;
+    color:$color-dark-green;
+
+}
+
+.step-wrapper__img3{
+    margin-top: 48px;
+    border-radius: 12px;
+}
