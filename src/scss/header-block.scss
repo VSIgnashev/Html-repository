@@ -1,0 +1,14 @@
+.header-block{
+    display: flex;
+    min-height: 85px;
+    justify-content: start;
+    align-items: center;
+}
+
+.header-block__navigation{
+    margin-left: 173px;
+}
+
+.header-block__buttons{
+    margin-left: auto;
+}

@@ -1,0 +1,17 @@
+.navigation-block{
+    display: flex;
+}
+
+.navigation-block__list{
+    display: flex;
+    list-style-type: none;
+    column-gap: 72px;
+    
+}
+
+.navigation-block__item{
+    white-space: nowrap;
+    text-decoration: none;
+    color:#292929;
+
+}
