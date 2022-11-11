@@ -14,29 +14,36 @@
 .profile__heading{
     color:$color-black;
     font-weight: 600;
-    font-size: 15px;
-    line-height: 22.75px;
+    font-size: 14.5px;
+    line-height: 157%;
 }
 
 .profile__divider{
-    margin-top: 7.67px;
+    margin-top: 6px;
     width: 110px;
     border: 0.745942px solid #000000;
 }
 
 .profile__icon{
-    margin-top: 13.7px;
+    margin-top: 12px;
 }
 
 .profile__name{
+    margin-top: 8px;
+
     color:$color-black;
     font-weight: 400;
-    font-size: 11.94px;
-    line-height: 18.74px;
+    font-size: 12px;
+    line-height: 157%;   
     text-align: center;
 }
 
 .profile__subheader{
+    margin-top: 18px;
+
+    align-self: flex-start;
+    margin-left: 61px;
+
     color:$color-black;
     font-family: Georgia;
     font-weight: 700;
@@ -45,11 +52,15 @@
 }
 
 .profile__list{
-    display: flex;
-    flex-direction: column;
-    color:$color-black;
+    align-self: flex-start;
+    margin-left: 73px;
 }
 
 .profile__item{
+    margin-top: 16px;
+
+    font-weight: 400;
+    font-size: 10.5px;
+    line-height: 157%;
     color:$color-black;
 }
