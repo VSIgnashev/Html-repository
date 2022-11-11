@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Lato";
+  font-style: medium;
+  font-weight: 500;
+  src: url(../fonts/Lato-Medium.ttf);
+}
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: "Georgia";
+  font-style: bold;
+  font-weight: 700;
+  src: url(../fonts/georgia\ bold.ttf);
+}
+* {
+  font-family: "Lato";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  min-height: 85px;
+}
+
+.header_wrapper {
+  display: flex;
+  justify-content: start;
+}
+.header_wrapper_logo {
+  padding-left: 274px;
+  padding-top: 30px;
+}
+.header_wrapper_nav {
+  padding-top: 30px;
+  padding-left: 173px;
+}
+.header_wrapper_nav_list {
+  list-style: none;
+}
+.header_wrapper_nav_list_li {
+  display: inline;
+  padding-right: 72px;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(41, 41, 41);
+  text-decoration: none;
+}
+.header_wrapper_buttons {
+  margin-left: 283px;
+}
+.header_wrapper_buttons_sign_in {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.header_wrapper_buttons_header_button {
+  width: 183px;
+  height: 51px;
+  margin-top: 17px;
+  margin-left: 35px;
+  background: rgb(1, 153, 109);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+  border: 1px solid #01996D;
+  border-radius: 4px;
+}
+
+.Be_aware_section {
+  min-height: 895px;
+  background: url(../img/bg_first_section.jpg) center center/cover no-repeat;
+}
+.Be_aware_section h1 {
+  padding-top: 171px;
+  margin-left: 275px;
+  color: rgb(1, 153, 109);
+  font-size: 65px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  line-height: 73.85px;
+}
+.Be_aware_section_p {
+  margin-top: 30px;
+  margin-left: 275px;
+  color: rgb(72, 72, 72);
+  font-weight: 400;
+  font-style: 20px;
+  line-height: 31px;
+}
+.Be_aware_section_button {
+  margin-top: 18px;
+  margin-left: 275px;
+  width: 227px;
+  height: 65px;
+  background-color: rgb(1, 153, 109);
+  border: 1px solid #01996D;
+  border-radius: 4px;
+  color: #FFF;
+  font-size: 20;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=styles.css.map */
