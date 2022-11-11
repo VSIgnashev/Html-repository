@@ -1,0 +1,41 @@
+.story{
+    min-height: 922px;
+    background-color:#245852;
+    padding-top: 229px;
+}
+
+.story__wrapper{
+    max-width: 1476.84px;
+    display: flex;
+    column-gap: 31px;
+}
+
+.story__text-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.story__title{
+    margin-top: 81px;
+}
+
+.story__text-content{
+    margin-top: 33px;
+    width: 580px;
+}
+
+.story__p{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 39.25px;
+    color: $color-white;
+}
+
+.story__button{
+    margin-top: 57px;
+}
+
+.video{
+    border-radius: 16px;
+}
